@@ -1,4 +1,4 @@
-# AIProject
+# Freak on a Leash
 
 Something takes a part of me
 Something lost and never seen
