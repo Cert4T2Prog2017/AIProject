@@ -1,0 +1,4 @@
+,weight,dmg,price,type
+weapon_spear,0.75,5,10,melee
+weapon_torch,1.5,2.5,8,melee
+weapon_knife,2,50,20,melee
