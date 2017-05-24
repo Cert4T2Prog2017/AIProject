@@ -1,3 +1,3 @@
 # AIProject
 
-You have entered the wrong file, pal.
+These are the assignments I've posted for submission.
