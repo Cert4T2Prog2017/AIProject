@@ -1,0 +1,724 @@
+﻿Log file open, 05/22/17 09:09:50
+LogInit:Display: Running engine for game: Follower_AI_Task
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1269359669) SRandInit(1269359669).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078004
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.21-23.09.51:543][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-23.09.51:543][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.21-23.09.51:549][  0]LogInit: Computer: 9N4VF42
+[2017.05.21-23.09.51:549][  0]LogInit: User: S201427986
+[2017.05.21-23.09.51:549][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.21-23.09.51:549][  0]LogInit: High frequency timer resolution =3.515636 MHz
+[2017.05.21-23.09.51:550][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.21-23.09.51:550][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.21-23.09.51:550][  0]LogMemory: Process Physical Memory: 264.20 MB used, 264.20 MB peak
+[2017.05.21-23.09.51:550][  0]LogMemory: Process Virtual Memory: 262.31 MB used, 262.31 MB peak
+[2017.05.21-23.09.51:550][  0]LogMemory: Physical Memory: 5319.76 MB used,  10979.07 MB free, 16298.84 MB total
+[2017.05.21-23.09.51:550][  0]LogMemory: Virtual Memory: 644.97 MB used,  10979.07 MB free, 134217728.00 MB total
+[2017.05.21-23.09.51:625][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.05.21-23.09.52:203][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.21-23.09.52:211][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.05.21-23.09.52:211][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.05.21-23.09.52:216][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.21-23.09.52:216][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.21-23.09.52:218][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.21-23.09.52:218][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.21-23.09.52:218][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.21-23.09.52:222][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.21-23.09.52:222][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.21-23.09.52:222][  0]LogWindows: EnumDisplayDevices:
+[2017.05.21-23.09.52:222][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.05.21-23.09.52:222][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.21-23.09.52:222][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.21-23.09.52:223][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.21-23.09.52:223][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.21-23.09.52:223][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.21-23.09.52:223][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.21-23.09.52:223][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.21-23.09.52:224][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.21-23.09.52:224][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.05.21-23.09.52:224][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.05.21-23.09.52:224][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.05.21-23.09.52:224][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.05.21-23.09.52:224][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.21-23.09.52:261][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.21-23.09.52:270][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.05.21-23.09.52:270][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Intermediate/Shaders/WorkingDirectory/12804/).
+[2017.05.21-23.09.52:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/S201427986/AppData/Local/Temp/UnrealShaderWorkingDir/05CFA2994A4D14E1D41B69BBCB34B8E2/'.
+[2017.05.21-23.09.52:270][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.21-23.09.53:204][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.21-23.09.53:257][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.21-23.09.53:311][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.21-23.09.53:364][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.21-23.09.53:420][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.21-23.09.53:472][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.21-23.09.53:524][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.21-23.09.53:577][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.21-23.09.53:622][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.21-23.09.53:674][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.21-23.09.53:726][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.21-23.09.53:778][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.21-23.09.53:830][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.21-23.09.53:882][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.21-23.09.53:933][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.21-23.09.54:037][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.21-23.09.54:037][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.21-23.09.54:075][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.21-23.09.54:170][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.21-23.09.54:204][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.21-23.09.54:255][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.21-23.09.54:307][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.21-23.09.54:358][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.21-23.09.54:410][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.21-23.09.54:410][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.21-23.09.54:850][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.21-23.09.54:893][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/S201427986/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-23.09.54:893][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/S201427986/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.21-23.09.54:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.21-23.09.54:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.21-23.09.54:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.21-23.09.54:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.21-23.09.54:908][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.21-23.09.54:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/S201427986/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.21-23.09.54:929][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.21-23.09.54:929][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-23.09.54:929][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-23.09.55:153][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-23.09.55:156][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.21-23.09.55:348][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.21-23.09.55:391][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.21-23.09.55:438][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.21-23.09.55:438][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.21-23.09.55:438][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.21-23.09.55:915][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: follower_ai_task, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3454336301
+[2017.05.21-23.09.55:961][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.05.21-23.09.56:012][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026172 seconds
+[2017.05.21-23.09.56:017][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.21-23.09.56:017][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.21-23.09.56:017][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.21-23.09.56:086][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.21-23.09.57:616][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.21-23.09.57:675][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.21-23.09.58:128][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.21-23.09.58:506][  0]SourceControl: Info Source control is disabled
+[2017.05.21-23.09.58:561][  0]SourceControl: Info Source control is disabled
+[2017.05.21-23.09.58:611][  0]SourceControl: Info Source control is disabled
+[2017.05.21-23.09.58:657][  0]SourceControl: Info Source control is disabled
+[2017.05.21-23.09.59:913][  0]LogEngine: Initializing Engine...
+[2017.05.21-23.09.59:914][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.21-23.10.00:128][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.21-23.10.00:134][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-23.10.00:166][  0]LogInit: FAudioDevice initialized.
+[2017.05.21-23.10.00:191][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/S201427986/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-23.10.00:194][  0]LogInit: Texture streaming: Enabled
+[2017.05.21-23.10.00:293][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.21-23.10.00:383][  0]LogInit: Transaction tracking system initialized
+[2017.05.21-23.10.00:735][  0]BlueprintLog: New page: Editor Load
+[2017.05.21-23.10.02:270][  0]LocalizationService: Info Localization service is disabled
+[2017.05.21-23.10.02:972][  0]LogConsoleResponse:Display: 
+[2017.05.21-23.10.03:085][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.21-23.10.03:085][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.21-23.10.04:112][  0]LogFileCache: Scanning file cache for directory 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/' took 0.01s
+[2017.05.21-23.10.04:159][  0]SourceControl: Info Source control is disabled
+[2017.05.21-23.10.04:159][  0]Cmd: MAP LOAD FILE="../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.21-23.10.04:160][  0]LightingResults: New page: Lighting Build
+[2017.05.21-23.10.04:203][  0]MapCheck: New page: Map Check
+[2017.05.21-23.10.04:203][  0]LightingResults: New page: Lighting Build
+[2017.05.21-23.10.04:717][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.05.21-23.10.04:746][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.21-23.10.04:746][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.21-23.10.04:792][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.508ms to complete.
+[2017.05.21-23.10.04:792][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.633
+[2017.05.21-23.10.04:853][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.21-23.10.04:958][  0]LogCollectionManager: Loaded 0 collections in 0.002024 seconds
+[2017.05.21-23.10.05:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Collections/' took 0.01s
+[2017.05.21-23.10.05:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/Developers/S201427986/Collections/' took 0.01s
+[2017.05.21-23.10.05:040][  0]LogFileCache: Scanning file cache for directory 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/Collections/' took 0.01s
+[2017.05.21-23.10.05:040][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.21-23.10.05:053][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2245 classes and 453 folders.
+[2017.05.21-23.10.05:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.21-23.10.05:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.21-23.10.05:121][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.21-23.10.05:163][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.21-23.10.05:208][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.21-23.10.05:255][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.21-23.10.05:263][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.21-23.10.05:329][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.21-23.10.05:329][  0]LogLoad: (Engine Initialization) Total time: 15.55 seconds
+[2017.05.21-23.10.05:329][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.05.21-23.10.05:329][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.21-23.10.05:329][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.21-23.10.05:341][  0]LogOcInput: OculusInput pre-init called
+[2017.05.21-23.10.05:384][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.21-23.10.05:385][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-23.10.05:389][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.21-23.10.05:393][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.21-23.10.05:506][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-23.10.05:551][  0]LogRenderer: Reallocating scene render targets to support 1184x576 NumSamples 1 (Frame:2).
+[2017.05.21-23.10.09:823][473]LogAssetRegistry: Asset discovery search completed in 13.8841 seconds
+[2017.05.21-23.10.09:823][473]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.05.21-23.10.09:823][473]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.05.21-23.11.43:177][ 49]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-23.13.28:851][791]LogSavePackage: Save=1.21ms
+[2017.05.21-23.13.28:852][791]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/FollowerBT0AEB401F4D4F630C5C608F9145F041F7.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/FollowerBT.uasset'
+[2017.05.21-23.13.28:857][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/FollowerBT.uasset
+[2017.05.21-23.19.57:035][132]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-23.20.06:068][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.011
+[2017.05.21-23.20.06:070][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Follower_AI_CON] ([1] browsable assets)...
+[2017.05.21-23.20.06:070][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Follower_AI_CON]
+[2017.05.21-23.20.06:077][159]LogSavePackage: Save=6.08ms
+[2017.05.21-23.20.06:077][159]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_AI_CON_Auto1D05188D346B8D9D374E253B845A99252.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_CON_Auto1.uasset'
+[2017.05.21-23.20.06:078][159]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_CON_Auto1.uasset
+[2017.05.21-23.20.06:079][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/AI_Character] ([1] browsable assets)...
+[2017.05.21-23.20.06:079][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/AI_Character]
+[2017.05.21-23.20.06:092][159]LogSavePackage: Save=12.18ms
+[2017.05.21-23.20.06:092][159]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/AI_Character_Auto17EFDF611461CF3DA7967948610C2EF76.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/AI_Character_Auto1.uasset'
+[2017.05.21-23.20.06:093][159]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/AI_Character_Auto1.uasset
+[2017.05.21-23.20.06:095][159]LogSavePackage: Save=0.82ms
+[2017.05.21-23.20.06:095][159]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_AI_BT_Auto17EC461E845B66BA5D90D20AE37CA2F3D.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_BT_Auto1.uasset'
+[2017.05.21-23.20.06:096][159]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_BT_Auto1.uasset
+[2017.05.21-23.20.06:097][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Follower_Blackboard] ([1] browsable assets)...
+[2017.05.21-23.20.06:097][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Follower_Blackboard]
+[2017.05.21-23.20.06:099][159]LogSavePackage: Save=0.87ms
+[2017.05.21-23.20.06:099][159]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_Blackboard_Auto1E0F8BDB94639ED801AA78B9E4FA546B6.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_Blackboard_Auto1.uasset'
+[2017.05.21-23.20.06:099][159]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_Blackboard_Auto1.uasset
+[2017.05.21-23.20.06:100][159]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.05.21-23.21.45:126][576]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.05.21-23.21.45:627][576]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-23.21.48:754][804]LogRenderer: Reallocating scene render targets to support 1292x712 NumSamples 1 (Frame:17491).
+[2017.05.21-23.21.49:501][847]LogSlate: Took 0.013753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.21-23.23.09:899][460]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.21-23.23.26:050][ 64]BlueprintLog: New page: Compile AI_Character
+[2017.05.21-23.25.18:873][175]BlueprintLog: New page: Compile AI_Character
+[2017.05.21-23.28.16:272][592]BlueprintLog: New page: Compile AI_Character
+[2017.05.21-23.30.27:971][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2017.05.21-23.30.27:973][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/AI/Chaser/AI_Character] ([1] browsable assets)...
+[2017.05.21-23.30.28:015][193]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/AI/Chaser/AI_Character.AI_Character]
+[2017.05.21-23.30.28:015][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/AI_Character]
+[2017.05.21-23.30.28:036][193]LogSavePackage: Save=19.36ms
+[2017.05.21-23.30.28:036][193]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/AI_Character_Auto2188A84B24E444DAA2059CBAC52CB88D8.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/AI_Character_Auto2.uasset'
+[2017.05.21-23.30.28:037][193]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/AI_Character_Auto2.uasset
+[2017.05.21-23.30.28:037][193]LogFileHelpers: Auto-saving content packages took 0.064
+[2017.05.21-23.31.18:746][793]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.21-23.32.13:950][643]BlueprintLog: New page: Compile AI_Character
+[2017.05.21-23.32.14:717][671]LogSavePackage: Save=18.12ms
+[2017.05.21-23.32.14:717][671]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/AI_Character7B5679BE4B62312D5B75B58D2D7975EA.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/AI_Character.uasset'
+[2017.05.21-23.32.14:732][671]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/AI_Character.uasset
+[2017.05.21-23.34.43:084][570]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.21-23.35.19:016][684]LogSavePackage: Save=1.40ms
+[2017.05.21-23.35.19:016][684]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_Blackboard3FFDBD344D22780DEC13A8B22F278D3F.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Follower_Blackboard.uasset'
+[2017.05.21-23.35.19:018][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Follower_Blackboard.uasset
+[2017.05.21-23.43.48:828][305]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.21-23.44.42:450][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2017.05.21-23.44.42:452][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Follower_AI_CON] ([1] browsable assets)...
+[2017.05.21-23.44.42:452][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Follower_AI_CON]
+[2017.05.21-23.44.42:460][474]LogSavePackage: Save=6.79ms
+[2017.05.21-23.44.42:460][474]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_AI_CON_Auto35FC197AE4369319092C98BBE68BD88E4.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_CON_Auto3.uasset'
+[2017.05.21-23.44.42:461][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_CON_Auto3.uasset
+[2017.05.21-23.44.42:461][474]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.05.21-23.54.32:600][798]BlueprintLog: New page: Compile Follower_AI_CON
+[2017.05.21-23.54.32:611][798]LogBlueprint:Error: [Compiler Follower_AI_CON] Error The current value (None) of the ' Key Name ' pin is invalid: 'Key Name' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.21-23.54.32:822][798]BlueprintEditorCompileResults:Error: Error The current value (None) of the ' Key Name ' pin is invalid: 'Key Name' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.21-23.54.32:828][798]LogBlueprint:Warning: [Compiler Follower_AI_CON] Warning [2683.06] Compile of Follower_AI_CON failed. 1 Fatal Issue(s) 0 Warning(s) [in 228 ms] (/Game/TopDownBP/AI/Chaser/Follower_AI_CON.Follower_AI_CON)
+[2017.05.21-23.55.37:376][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.013
+[2017.05.21-23.55.37:378][718]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Follower_AI_CON] ([1] browsable assets)...
+[2017.05.21-23.55.37:378][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Follower_AI_CON]
+[2017.05.21-23.55.37:391][718]LogSavePackage: Save=11.29ms
+[2017.05.21-23.55.37:391][718]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_AI_CON_Auto407DC7C5E44F6BC1C04F6A6BFCA21BF7F.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_CON_Auto4.uasset'
+[2017.05.21-23.55.37:392][718]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Follower_AI_CON_Auto4.uasset
+[2017.05.21-23.55.37:392][718]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.05.21-23.56.28:533][493]BlueprintLog: New page: Compile Follower_AI_CON
+[2017.05.22-00.00.15:548][379]BlueprintLog: New page: Compile Follower_AI_CON
+[2017.05.22-00.00.29:759][799]BlueprintLog: New page: Compile Follower_AI_CON
+[2017.05.22-00.00.30:280][839]LogSavePackage: Save=14.38ms
+[2017.05.22-00.00.30:280][839]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_AI_CON3454695242BB46FAAAF955A083E881E6.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Follower_AI_CON.uasset'
+[2017.05.22-00.00.30:282][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Follower_AI_CON.uasset
+[2017.05.22-00.00.30:406][851]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/AI/Chaser/Follower_AI_CON.
+[2017.05.22-00.00.48:935][895]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-00.00.48:952][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.05.22-00.00.48:952][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-00.00.48:964][895]PIE: New page: PIE session: TopDownExampleMap (22 May 2017 8:00:48 pm)
+[2017.05.22-00.00.48:964][895]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.05.22-00.00.49:004][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039534s)
+[2017.05.22-00.00.49:004][895]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.05.22-00.00.49:005][895]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.05.22-00.00.49:016][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.051136s)
+[2017.05.22-00.00.49:029][895]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.22-00.00.49:043][895]LogInit: FAudioDevice initialized.
+[2017.05.22-00.00.49:107][895]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.05.22-00.00.49:132][895]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.05.22-10.00.49
+[2017.05.22-00.00.49:177][895]LogWorld: Bringing up level for play took: 0.046191
+[2017.05.22-00.00.49:232][895]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.05.22-00.00.49:267][895]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.621
+[2017.05.22-00.00.49:268][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.05.22-00.04.07:914][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.05.22-00.04.08:024][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.05.22-00.08.56:466][730]LogSavePackage: Save=121.90ms
+[2017.05.22-00.08.56:466][730]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/TopDownExampleMap_Auto5EDE5F9064B5229EF0B364688C5EEA9CB.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto5.umap'
+[2017.05.22-00.08.56:469][730]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto5.umap
+[2017.05.22-00.08.56:470][730]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.147
+[2017.05.22-00.08.56:470][730]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.147
+[2017.05.22-00.16.05:764][438]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/AI/Chaser/BTService_BlueprintBase_New.
+[2017.05.22-00.17.14:844][915]LogMetaData: Removing '/Game/TopDownBP/AI/Chaser/Agro_Check.SKEL_Agro_Check_C' ref from Metadata '/Game/TopDownBP/AI/Chaser/BTService_BlueprintBase_New.PackageMetaData'
+[2017.05.22-00.17.14:844][915]LogMetaData: Removing '/Game/TopDownBP/AI/Chaser/Agro_Check.Agro_Check_C' ref from Metadata '/Game/TopDownBP/AI/Chaser/BTService_BlueprintBase_New.PackageMetaData'
+[2017.05.22-00.17.14:859][915]LogSavePackage: Save=1.73ms
+[2017.05.22-00.17.14:859][915]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_CheckEA83AD124719607538E1C4AC6B5ED07F.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset'
+[2017.05.22-00.17.14:862][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset
+[2017.05.22-00.17.15:083][922]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/AI/Chaser/Agro_Check.
+[2017.05.22-00.18.11:392][542]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-00.19.14:348][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.015
+[2017.05.22-00.19.14:350][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/FollowerBT] ([1] browsable assets)...
+[2017.05.22-00.19.14:350][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/FollowerBT]
+[2017.05.22-00.19.14:354][926]LogSavePackage: Save=2.04ms
+[2017.05.22-00.19.14:354][926]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/FollowerBT_Auto6ED087BAF4460D3736B30D1887A05B34F.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/FollowerBT_Auto6.uasset'
+[2017.05.22-00.19.14:355][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/FollowerBT_Auto6.uasset
+[2017.05.22-00.19.14:357][926]LogSavePackage: Save=0.85ms
+[2017.05.22-00.19.14:357][926]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/BTService_BlueprintBase_New_Auto685DDBF74436D636892D9788A89D202B4.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/BTService_BlueprintBase_New_Auto6.uasset'
+[2017.05.22-00.19.14:358][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/BTService_BlueprintBase_New_Auto6.uasset
+[2017.05.22-00.19.14:358][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-00.19.14:358][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-00.19.14:363][926]LogSavePackage: Save=2.25ms
+[2017.05.22-00.19.14:363][926]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto6D0DA47E747AA075C8A1083BF2289BBAA.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto6.uasset'
+[2017.05.22-00.19.14:364][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto6.uasset
+[2017.05.22-00.19.14:364][926]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.05.22-00.20.31:921][681]LogSlate: Took 0.011568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.22-00.23.16:253][577]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-00.29.15:203][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2017.05.22-00.29.15:205][234]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-00.29.15:205][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-00.29.15:212][234]LogSavePackage: Save=4.66ms
+[2017.05.22-00.29.15:212][234]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto7D53ACC5F4F760A5BE04134AF72085A01.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto7.uasset'
+[2017.05.22-00.29.15:213][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto7.uasset
+[2017.05.22-00.29.15:213][234]LogFileHelpers: Auto-saving content packages took 0.009
+[2017.05.22-00.33.58:728][999]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.22-00.39.16:188][869]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2017.05.22-00.39.16:190][869]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-00.39.16:190][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-00.39.16:198][869]LogSavePackage: Save=5.68ms
+[2017.05.22-00.39.16:198][869]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto889BE9DFC4E9522B982B4C1B15512E438.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto8.uasset'
+[2017.05.22-00.39.16:199][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto8.uasset
+[2017.05.22-00.39.16:199][869]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.05.22-01.18.35:852][292]LogClass:Warning: Property MyLocation of MyLocation has a struct type mismatch (tag BlackboardKeySelector != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.05.22-01.18.38:683][553]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-01.19.30:641][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.018
+[2017.05.22-01.19.30:643][264]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-01.19.30:643][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-01.19.30:663][264]LogSavePackage: Save=17.92ms
+[2017.05.22-01.19.30:663][264]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto9109FE99546E75CFD3DE5A0AB2B61381B.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto9.uasset'
+[2017.05.22-01.19.30:664][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto9.uasset
+[2017.05.22-01.19.30:664][264]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.05.22-01.25.17:999][540]LogClass:Warning: Type mismatch in DesiredObjectTypes of SKEL_Agro_Check_C - Previous (StructProperty) Current(SetProperty) for package:  FObjectReader
+[2017.05.22-01.29.31:385][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2017.05.22-01.29.31:387][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-01.29.31:387][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-01.29.31:398][679]LogSavePackage: Save=8.44ms
+[2017.05.22-01.29.31:398][679]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto025EBD4124750395BC4D23D962524E221.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto0.uasset'
+[2017.05.22-01.29.31:400][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto0.uasset
+[2017.05.22-01.29.31:400][679]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.05.22-01.34.17:390][294]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-01.34.17:397][294]LogBlueprint:Error: [Compiler Agro_Check] Error The current value of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.22-01.34.17:548][294]BlueprintEditorCompileResults:Error: Error The current value of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.22-01.34.17:549][294]LogBlueprint:Warning: [Compiler Agro_Check] Warning [8667.78] Compile of Agro_Check failed. 1 Fatal Issue(s) 0 Warning(s) [in 158 ms] (/Game/TopDownBP/AI/Chaser/Agro_Check.Agro_Check)
+[2017.05.22-01.34.38:617][924]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-01.36.41:692][460]LogEditorTransaction: Undo Move Node
+[2017.05.22-01.39.31:712][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2017.05.22-01.39.31:714][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-01.39.31:714][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-01.39.31:729][625]LogSavePackage: Save=12.24ms
+[2017.05.22-01.39.31:729][625]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto1E0D40BA84B0B2C5C065EE8B6070EAFFB.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto1.uasset'
+[2017.05.22-01.39.31:730][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto1.uasset
+[2017.05.22-01.39.31:730][625]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.05.22-01.51.09:610][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2017.05.22-01.51.09:612][983]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-01.51.09:612][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-01.51.09:627][983]LogSavePackage: Save=12.60ms
+[2017.05.22-01.51.09:627][983]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto216FDE72142AD8108E62048B879DCA292.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto2.uasset'
+[2017.05.22-01.51.09:628][983]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto2.uasset
+[2017.05.22-01.51.09:628][983]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.05.22-01.51.25:227][281]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-01.51.25:809][316]LogSavePackage: Save=12.47ms
+[2017.05.22-01.51.25:809][316]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check5004DBA04F58C59A66C10DAAADD61266.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset'
+[2017.05.22-01.51.25:811][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset
+[2017.05.22-02.01.44:872][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.018
+[2017.05.22-02.01.44:873][881]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-02.01.44:873][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-02.01.44:890][881]LogSavePackage: Save=14.10ms
+[2017.05.22-02.01.44:890][881]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto3ABEFB3AD45D4C0459050A389466802AB.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto3.uasset'
+[2017.05.22-02.01.44:892][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto3.uasset
+[2017.05.22-02.01.44:892][881]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.05.22-02.07.02:239][893]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-02.07.06:626][255]LogSavePackage: Save=14.54ms
+[2017.05.22-02.07.06:626][255]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check5520596A4C50FDAE414A598160BD2740.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset'
+[2017.05.22-02.07.06:628][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset
+[2017.05.22-02.13.12:031][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2017.05.22-02.13.12:032][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-02.13.12:032][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-02.13.12:051][280]LogSavePackage: Save=15.34ms
+[2017.05.22-02.13.12:051][280]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto4097076FC4C60B7533F1AEDAB9E300F0D.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto4.uasset'
+[2017.05.22-02.13.12:052][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto4.uasset
+[2017.05.22-02.13.12:052][280]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.05.22-02.13.47:698][196]LogEditorTransaction: Undo Move Node
+[2017.05.22-02.13.49:065][295]LogEditorTransaction: Undo Move Node
+[2017.05.22-02.13.49:730][345]LogEditorTransaction: Undo Move Node
+[2017.05.22-02.13.50:219][380]LogEditorTransaction: Undo Add Node
+[2017.05.22-02.18.49:522][ 43]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.05.22-02.19.05:297][306]LogEditorTransaction: Undo Move Node
+[2017.05.22-02.19.05:721][327]LogEditorTransaction: Undo Rename Node
+[2017.05.22-02.19.06:202][358]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.05.22-02.19.17:555][268]LogEditorTransaction: Undo Rename Node
+[2017.05.22-02.19.18:029][291]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.05.22-02.19.45:761][530]LogEditorTransaction: Undo Delete current selection
+[2017.05.22-02.22.38:214][932]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.05.22-02.22.38:782][963]LogEditorTransaction: Undo Move Node
+[2017.05.22-02.22.39:523][ 19]LogEditorTransaction: Undo Move Node
+[2017.05.22-02.22.40:109][ 63]LogEditorTransaction: Undo Expands the node's internal graph into the current graph and removes this node.
+[2017.05.22-02.22.44:536][448]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-02.23.34:499][ 64]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.015
+[2017.05.22-02.23.34:500][ 64]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AI/Chaser/Agro_Check] ([1] browsable assets)...
+[2017.05.22-02.23.34:500][ 64]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AI/Chaser/Agro_Check]
+[2017.05.22-02.23.34:525][ 64]LogSavePackage: Save=20.99ms
+[2017.05.22-02.23.34:525][ 64]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check_Auto575503EF94C0AFDC191AEE98646E5227F.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto5.uasset'
+[2017.05.22-02.23.34:526][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Autosaves/Game/TopDownBP/AI/Chaser/Agro_Check_Auto5.uasset
+[2017.05.22-02.23.34:526][ 64]LogFileHelpers: Auto-saving content packages took 0.026
+[2017.05.22-02.30.34:750][274]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-02.30.34:766][274]LogBlueprint:Error: [Compiler Agro_Check] Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.22-02.30.34:926][274]BlueprintEditorCompileResults:Error: Error The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.22-02.30.34:927][274]LogBlueprint:Warning: [Compiler Agro_Check] Warning [2045.18] Compile of Agro_Check failed. 1 Fatal Issue(s) 0 Warning(s) [in 176 ms] (/Game/TopDownBP/AI/Chaser/Agro_Check.Agro_Check)
+[2017.05.22-02.30.35:312][303]LogSavePackage: Save=19.13ms
+[2017.05.22-02.30.35:312][303]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check575EF33F4BB9E536EFAD8689A2FCD854.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset'
+[2017.05.22-02.30.35:315][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset
+[2017.05.22-02.30.56:796][ 13]BlueprintLog: New page: Compile Agro_Check
+[2017.05.22-02.30.57:694][ 76]LogSavePackage: Save=18.71ms
+[2017.05.22-02.30.57:694][ 76]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Agro_Check23F1482444278B215FC30FA76C598CB8.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset'
+[2017.05.22-02.30.57:712][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Agro_Check.uasset
+[2017.05.22-02.32.10:862][109]LogSavePackage: Save=116.62ms
+[2017.05.22-02.32.10:862][109]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/TopDownExampleMap9778827F4750640F065A7C9B99BE866D.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.05.22-02.32.10:865][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.05.22-02.32.10:874][109]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.198
+[2017.05.22-02.32.10:879][109]LogSavePackage: Save=1.07ms
+[2017.05.22-02.32.10:879][109]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Follower_AI_BT4EC30DF2490E64B85202FBACACC8248A.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Follower_AI_BT.uasset'
+[2017.05.22-02.32.10:880][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/Follower_AI_BT.uasset
+[2017.05.22-02.32.10:887][109]LogSavePackage: Save=1.82ms
+[2017.05.22-02.32.10:887][109]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/FollowerBTC2A888E4400CFEB80EDB5CA792E08F97.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/FollowerBT.uasset'
+[2017.05.22-02.32.10:889][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/FollowerBT.uasset
+[2017.05.22-02.32.10:894][109]LogSavePackage: Save=1.07ms
+[2017.05.22-02.32.10:894][109]LogSavePackage: Moving '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/BTService_BlueprintBase_New2F6BA12C402CDBA12BCF2D8D04B42E91.tmp' to '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/BTService_BlueprintBase_New.uasset'
+[2017.05.22-02.32.10:896][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/TopDownBP/AI/Chaser/BTService_BlueprintBase_New.uasset
+[2017.05.22-02.32.25:327][825]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.22-02.32.25:491][826]Cmd: QUIT_EDITOR
+[2017.05.22-02.32.25:804][826]LogExit: Preparing to exit.
+[2017.05.22-02.32.26:784][826]LogDirectoryWatcher: A directory notification for 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/' was aborted.
+[2017.05.22-02.32.26:816][826]LogExit: Editor shut down
+[2017.05.22-02.32.26:816][826]LogExit: Transaction tracking system shut down
+[2017.05.22-02.32.26:892][826]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.22-02.32.26:892][826]LogExit: Object subsystem successfully closed.
+[2017.05.22-02.32.26:901][826]LogD3D11RHI: Shutdown
+[2017.05.22-02.32.26:901][826]LogD3D11RHI: CleanupD3DDevice
+[2017.05.22-02.32.26:950][826]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.22-02.32.26:967][826]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.22-02.32.26:967][826]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.22-02.32.26:968][826]LogDirectoryWatcher: A directory notification for 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/Collections/' was aborted.
+[2017.05.22-02.32.26:968][826]LogDirectoryWatcher: A directory notification for 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/Developers/S201427986/Collections/' was aborted.
+[2017.05.22-02.32.26:968][826]LogDirectoryWatcher: A directory notification for 'C:/Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Saved/Collections/' was aborted.
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.22-02.32.26:968][826]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.22-02.32.26:969][826]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.22-02.32.27:007][826]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.22-02.32.27:008][826]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.22-02.32.27:061][826]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.22-02.32.27:067][826]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.22-02.32.27:067][826]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.22-02.32.27:068][826]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.22-02.32.27:303][826]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.22-02.32.27:305][826]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.22-02.32.27:305][826]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.22-02.32.27:305][826]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.22-02.32.27:305][826]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.22-02.32.27:305][826]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.22-02.32.27:406][826]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.22-02.32.27:506][826]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.22-02.32.27:514][826]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.22-02.32.27:516][826]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.22-02.32.27:516][826]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.22-02.32.27:516][826]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.22-02.32.27:516][826]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.22-02.32.27:516][826]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.22-02.32.27:516][826]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.22-02.32.27:626][826]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.22-02.32.27:626][826]LogDirectoryWatcher: A directory notification for '../../../../../../Users/S201427986/Documents/Unreal Projects/Follower_AI_Task/Content/' was aborted.
+[2017.05.22-02.32.27:626][826]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.22-02.32.27:626][826]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.22-02.32.27:628][826]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.22-02.32.27:725][826]LogDerivedDataCache: Shutdown
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.22-02.32.27:725][826]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.22-02.32.27:726][826]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.22-02.32.27:726][826]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.22-02.32.27:726][826]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.22-02.32.27:726][826]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAFE1316A-4BF5-D6A6-54FE-D29942E3AE5F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=695126a949c241d0b94f19a66a8fda07%7Cd2b880af915143b08358f290800c4829%7C269c372a-7da0-430b-b5db-8e71ed138d0c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.22-02.32.27:729][826]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.22-02.32.27:730][826]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.22-02.32.27:730][826]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.22-02.32.27:730][826]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.22-02.32.27:730][826]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.22-02.32.27:730][826]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.22-02.32.27:732][826]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.22-02.32.27:734][826]LogExit: Exiting.
+[2017.05.22-02.32.27:741][826]Log file closed, 05/22/17 12:32:27
