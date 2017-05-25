@@ -1,0 +1,1065 @@
+﻿Log file open, 05/18/17 10:31:41
+LogInit:Display: Running engine for game: doesnt_matter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1891856184) SRandInit(1891856184).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073268
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.18-00.31.42:274][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-00.31.42:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-00.31.42:286][  0]LogInit: Computer: DM2TF42
+[2017.05.18-00.31.42:286][  0]LogInit: User: R201631433
+[2017.05.18-00.31.42:286][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-00.31.42:286][  0]LogInit: High frequency timer resolution =3.515636 MHz
+[2017.05.18-00.31.42:286][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.18-00.31.42:286][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-00.31.42:286][  0]LogMemory: Process Physical Memory: 264.62 MB used, 264.62 MB peak
+[2017.05.18-00.31.42:286][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
+[2017.05.18-00.31.42:286][  0]LogMemory: Physical Memory: 5331.64 MB used,  10967.25 MB free, 16298.88 MB total
+[2017.05.18-00.31.42:286][  0]LogMemory: Virtual Memory: 644.90 MB used,  10967.25 MB free, 134217728.00 MB total
+[2017.05.18-00.31.42:361][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.05.18-00.31.42:903][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-00.31.42:913][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.05.18-00.31.42:913][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.05.18-00.31.42:919][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.18-00.31.42:919][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.18-00.31.42:920][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-00.31.42:920][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-00.31.42:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-00.31.42:924][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-00.31.42:924][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-00.31.42:924][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-00.31.42:924][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.05.18-00.31.42:925][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.18-00.31.42:925][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.18-00.31.42:925][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.18-00.31.42:925][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.18-00.31.42:925][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.05.18-00.31.42:926][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.18-00.31.42:926][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.18-00.31.42:926][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.18-00.31.42:926][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.05.18-00.31.42:926][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.05.18-00.31.42:926][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.05.18-00.31.42:926][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.05.18-00.31.42:926][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.18-00.31.42:995][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-00.31.43:007][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.05.18-00.31.43:008][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Intermediate/Shaders/WorkingDirectory/13364/).
+[2017.05.18-00.31.43:008][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/R201631433/AppData/Local/Temp/UnrealShaderWorkingDir/9C9ECF214E6E06EFFD9CD0BEA5EEA7D7/'.
+[2017.05.18-00.31.43:008][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-00.31.43:994][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-00.31.44:048][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-00.31.44:101][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-00.31.44:153][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-00.31.44:209][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-00.31.44:262][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-00.31.44:315][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-00.31.44:367][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-00.31.44:412][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-00.31.44:462][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-00.31.44:513][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-00.31.44:564][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-00.31.44:615][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-00.31.44:667][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-00.31.44:717][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-00.31.44:819][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-00.31.44:819][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-00.31.44:856][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-00.31.44:951][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-00.31.44:984][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-00.31.45:034][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-00.31.45:086][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-00.31.45:136][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-00.31.45:188][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-00.31.45:188][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-00.31.45:628][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-00.31.45:673][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/R201631433/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-00.31.45:673][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/R201631433/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-00.31.45:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-00.31.45:673][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-00.31.45:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-00.31.45:673][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-00.31.45:689][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-00.31.45:701][  0]LogDerivedDataCache: Using Local data cache path C:/Users/R201631433/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-00.31.45:709][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-00.31.45:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-00.31.45:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-00.31.45:941][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-00.31.45:945][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-00.31.46:141][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-00.31.46:184][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-00.31.46:231][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-00.31.46:231][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-00.31.46:231][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-00.31.46:717][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: doesnt_matter, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 93464806
+[2017.05.18-00.31.46:763][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.05.18-00.31.46:819][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.033593 seconds
+[2017.05.18-00.31.46:824][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.18-00.31.46:824][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.18-00.31.46:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-00.31.46:889][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-00.31.48:426][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-00.31.48:467][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-00.31.48:904][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-00.31.49:273][  0]SourceControl: Info Source control is disabled
+[2017.05.18-00.31.49:316][  0]SourceControl: Info Source control is disabled
+[2017.05.18-00.31.49:364][  0]SourceControl: Info Source control is disabled
+[2017.05.18-00.31.49:410][  0]SourceControl: Info Source control is disabled
+[2017.05.18-00.31.50:659][  0]LogEngine: Initializing Engine...
+[2017.05.18-00.31.50:660][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-00.31.50:867][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-00.31.50:872][  0]LogInit: No audio devices found!
+[2017.05.18-00.31.50:895][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/R201631433/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-00.31.50:900][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-00.31.51:000][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-00.31.51:086][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-00.31.51:431][  0]BlueprintLog: New page: Editor Load
+[2017.05.18-00.31.52:299][  0]LocalizationService: Info Localization service is disabled
+[2017.05.18-00.31.52:986][  0]LogConsoleResponse:Display: 
+[2017.05.18-00.31.53:099][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-00.31.53:099][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-00.31.53:126][  0]LogFileCache: Scanning file cache for directory 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/' took 0.02s
+[2017.05.18-00.31.54:119][  0]SourceControl: Info Source control is disabled
+[2017.05.18-00.31.54:119][  0]Cmd: MAP LOAD FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-00.31.54:119][  0]LightingResults: New page: Lighting Build
+[2017.05.18-00.31.54:158][  0]MapCheck: New page: Map Check
+[2017.05.18-00.31.54:158][  0]LightingResults: New page: Lighting Build
+[2017.05.18-00.31.54:562][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_32
+[2017.05.18-00.31.54:591][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.31.54:625][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-00.31.54:625][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-00.31.54:672][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.996ms to complete.
+[2017.05.18-00.31.54:672][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.553
+[2017.05.18-00.31.54:879][  0]LogCollectionManager: Loaded 0 collections in 0.001614 seconds
+[2017.05.18-00.31.54:956][  0]LogFileCache: Scanning file cache for directory 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/Collections/' took 0.01s
+[2017.05.18-00.31.54:956][  0]LogFileCache: Scanning file cache for directory 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/Developers/R201631433/Collections/' took 0.01s
+[2017.05.18-00.31.54:957][  0]LogFileCache: Scanning file cache for directory 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/Collections/' took 0.01s
+[2017.05.18-00.31.54:957][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.18-00.31.54:965][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2245 classes and 453 folders.
+[2017.05.18-00.31.54:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-00.31.54:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-00.31.55:032][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.18-00.31.55:116][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-00.31.55:160][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.18-00.31.55:206][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-00.31.55:212][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.18-00.31.55:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.18-00.31.55:281][  0]LogLoad: (Engine Initialization) Total time: 14.84 seconds
+[2017.05.18-00.31.55:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.05.18-00.31.55:281][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.18-00.31.55:281][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.18-00.31.55:614][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.18-00.31.55:621][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-00.31.55:656][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-00.31.55:659][  0]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-00.31.55:670][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-00.31.55:882][  0]LogRenderer: Reallocating scene render targets to support 876x452 NumSamples 1 (Frame:2).
+[2017.05.18-00.31.56:123][  1]LogAssetRegistry: Asset discovery search completed in 9.3825 seconds
+[2017.05.18-00.31.56:123][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.05.18-00.31.56:123][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.05.18-00.31.56:783][  3]LogSlate: Took 0.002620 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-00.32.01:228][299]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-00.32.01:604][299]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.05.18-00.32.02:933][299]LogSlate: Took 0.000833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-00.32.02:935][299]LogSlate: Took 0.000881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-00.32.03:010][300]LogSlate: Took 0.001186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-00.32.07:154][748]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-00.33.02:436][864]BlueprintLog: New page: Compile weapon_pickup
+[2017.05.18-00.33.02:457][864]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_6
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.33.02:568][864]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.33.03:069][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/weapon_pickup" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset" SILENT=true
+[2017.05.18-00.33.03:095][914]LogSavePackage: Save=21.94ms
+[2017.05.18-00.33.03:095][914]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/weapon_pickup7A8F210A42A8596525130A9ACD359C0E.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset'
+[2017.05.18-00.33.03:097][914]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset
+[2017.05.18-00.33.07:169][395]LogRenderer: Reallocating scene render targets to support 1052x696 NumSamples 1 (Frame:6577).
+[2017.05.18-00.33.43:774][492]LogEditorViewport: Clicking on Actor (LMB): weapon_pickup_C (weapon_pickup)
+[2017.05.18-00.34.19:352][119]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.34.21:476][347]BlueprintLog: New page: Compile weapon_pickup
+[2017.05.18-00.34.21:653][347]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.34.22:151][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/weapon_pickup" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset" SILENT=true
+[2017.05.18-00.34.22:176][393]LogSavePackage: Save=21.34ms
+[2017.05.18-00.34.22:176][393]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/weapon_pickupC84FBF614024AC3D9F8C0281CCA5A368.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset'
+[2017.05.18-00.34.22:177][393]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset
+[2017.05.18-00.34.53:563][875]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array weapon_mesh of length 3!
+[2017.05.18-00.35.14:740][ 93]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.35.14:752][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.35.14:752][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.35.14:752][ 93]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:35:14 pm)
+[2017.05.18-00.35.14:752][ 93]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.35.14:772][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019889s)
+[2017.05.18-00.35.14:774][ 93]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.35.14:774][ 93]LogPlayLevel: PIE: World Init took: (0.001620s)
+[2017.05.18-00.35.14:774][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021778s)
+[2017.05.18-00.35.14:844][ 93]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.35.14:846][ 93]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.35.14
+[2017.05.18-00.35.14:847][ 93]LogWorld: Bringing up level for play took: 0.001920
+[2017.05.18-00.35.14:890][ 93]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.18-00.35.14:891][ 93]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.713
+[2017.05.18-00.35.14:891][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.35.18:224][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.35.18:278][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.36.43:316][926]BlueprintLog: New page: Compile weapon_pickup
+[2017.05.18-00.36.43:433][926]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.36.43:813][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/weapon_pickup" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset" SILENT=true
+[2017.05.18-00.36.43:838][962]LogSavePackage: Save=19.68ms
+[2017.05.18-00.36.43:838][962]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/weapon_pickup42233F81492A1C351393B8BD53F845D2.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset'
+[2017.05.18-00.36.43:840][962]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset
+[2017.05.18-00.36.53:405][928]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.36.54:046][989]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.36.55:443][143]BlueprintLog: New page: Compile weapon_pickup
+[2017.05.18-00.36.55:811][143]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.36.56:107][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/weapon_pickup" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset" SILENT=true
+[2017.05.18-00.36.56:130][171]LogSavePackage: Save=19.02ms
+[2017.05.18-00.36.56:130][171]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/weapon_pickup0B35110B49203851F13DC2B20B0BA0AE.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset'
+[2017.05.18-00.36.56:132][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset
+[2017.05.18-00.36.57:973][389]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.36.57:983][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.36.57:983][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.36.57:984][389]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:36:57 pm)
+[2017.05.18-00.36.57:984][389]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.36.58:002][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018612s)
+[2017.05.18-00.36.58:003][389]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.36.58:003][389]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2017.05.18-00.36.58:003][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019810s)
+[2017.05.18-00.36.58:050][389]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.36.58:053][389]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.36.58
+[2017.05.18-00.36.58:054][389]LogWorld: Bringing up level for play took: 0.001933
+[2017.05.18-00.36.58:055][389]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.123
+[2017.05.18-00.36.58:055][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.36.59:479][556]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.37.01:054][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.37.01:104][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.37.07:394][325]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_12
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.37.17:874][164]LogEditorTransaction: Undo Remove Variable
+[2017.05.18-00.37.17:882][164]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.37.17:883][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.37.18:428][199]LogEditorTransaction: Undo Remove Variable
+[2017.05.18-00.37.18:436][199]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.37.18:437][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.37.19:457][276]LogEditorTransaction: Undo Delete current selection
+[2017.05.18-00.37.19:464][276]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.37.19:465][276]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.37.22:491][525]Cmd: TRANSACTION UNDO
+[2017.05.18-00.37.22:491][525]LogEditorTransaction: Undo Edit Weapon ID
+[2017.05.18-00.37.25:623][845]LogEditorTransaction: Redo Edit Weapon ID
+[2017.05.18-00.38.14:506][868]LogSavePackage: Save=118.25ms
+[2017.05.18-00.38.14:506][868]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonExampleMap03DBCBEA4376E707375434A21DE747DD.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.18-00.38.14:509][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.18-00.38.14:518][868]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.206
+[2017.05.18-00.38.14:576][868]LogSavePackage: Save=34.99ms
+[2017.05.18-00.38.14:576][868]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter17C3890844421F509C244782FE343767.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.38.14:578][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.38.14:597][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/weapon_pickup" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset" SILENT=true
+[2017.05.18-00.38.14:622][868]LogSavePackage: Save=21.35ms
+[2017.05.18-00.38.14:622][868]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/weapon_pickup62E71C3D4263D5DCA82FB9876215574B.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset'
+[2017.05.18-00.38.14:624][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset
+[2017.05.18-00.38.14:629][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/HUD" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/HUD.uasset" SILENT=true
+[2017.05.18-00.38.14:656][868]LogSavePackage: Save=22.57ms
+[2017.05.18-00.38.14:656][868]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/HUD0DE07D324AA53C1625EC4FA4F6F8EB47.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/HUD.uasset'
+[2017.05.18-00.38.14:659][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/HUD.uasset
+[2017.05.18-00.39.50:384][717]LogEditorViewport: Clicking on Actor (LMB): Weapon_Pickup_2_C (Weapon_Pickup_2)
+[2017.05.18-00.39.54:434][200]LogEditorViewport: Clicking on Actor (LMB): weapon_pickup_C (weapon_pickup)
+[2017.05.18-00.40.25:710][200]BlueprintLog: New page: Compile weapon_pickup
+[2017.05.18-00.40.26:143][200]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.40.26:144][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_12.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.40.26:279][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/weapon_pickup" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset" SILENT=true
+[2017.05.18-00.40.26:304][209]LogSavePackage: Save=21.41ms
+[2017.05.18-00.40.26:304][209]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/weapon_pickup89C8542F4B70694DFB9A7BA6E26ADAEF.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset'
+[2017.05.18-00.40.26:306][209]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/weapon_pickup.uasset
+[2017.05.18-00.40.29:956][624]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.40.30:017][624]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_0
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.40.30:160][624]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.40.30:161][624]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_25.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.40.30:170][624]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.40.30:171][624]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.40.30:197][624]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_39
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.40.30:451][641]LogSavePackage: Save=33.59ms
+[2017.05.18-00.40.30:451][641]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacterD4E0060F4DD326B0915F2199EB44505D.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.40.30:452][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.41.51:899][ 20]LogEditorTransaction: Undo Delete current selection
+[2017.05.18-00.41.51:908][ 20]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_42
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.42.02:355][  7]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.42.02:398][  7]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_0
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.42.02:476][  7]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.42.02:477][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.42.02:490][  7]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.42.02:491][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.42.02:520][  7]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_38
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.42.02:979][ 45]LogSavePackage: Save=35.24ms
+[2017.05.18-00.42.02:979][ 45]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter0FE775AA419041EA11ED33B3F84669D3.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.42.02:982][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.42.04:549][222]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.42.04:560][222]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.42.04:560][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.42.04:561][222]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:42:04 pm)
+[2017.05.18-00.42.04:561][222]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.42.04:580][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019517s)
+[2017.05.18-00.42.04:582][222]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.42.04:582][222]LogPlayLevel: PIE: World Init took: (0.002022s)
+[2017.05.18-00.42.04:582][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021842s)
+[2017.05.18-00.42.04:630][222]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.42.04:633][222]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.42.04
+[2017.05.18-00.42.04:634][222]LogWorld: Bringing up level for play took: 0.002060
+[2017.05.18-00.42.04:635][222]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.459
+[2017.05.18-00.42.04:635][222]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.42.06:066][387]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.42.08:358][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.42.08:411][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.44.29:491][ 50]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-00.45.24:049][799]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.45.24:095][799]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_0
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.45.24:173][799]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.45.24:174][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.45.24:187][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.45.24:188][799]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.45.24:216][799]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_38
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.45.24:644][834]LogSavePackage: Save=34.93ms
+[2017.05.18-00.45.24:644][834]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacterA2A636D548DB0CD90AFA48BB0F1796FE.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.45.24:647][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.45.33:443][839]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.45.33:457][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.45.33:457][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.45.33:457][839]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:45:33 pm)
+[2017.05.18-00.45.33:457][839]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.45.33:476][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019152s)
+[2017.05.18-00.45.33:478][839]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.45.33:478][839]LogPlayLevel: PIE: World Init took: (0.001797s)
+[2017.05.18-00.45.33:478][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021291s)
+[2017.05.18-00.45.33:528][839]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.45.33:531][839]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.45.33
+[2017.05.18-00.45.33:532][839]LogWorld: Bringing up level for play took: 0.002265
+[2017.05.18-00.45.33:533][839]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.643
+[2017.05.18-00.45.33:533][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.45.35:166][ 31]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.45.35:991][130]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.45.36:045][130]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.46.04:309][ 60]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.46.04:322][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.46.04:322][ 60]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.18-00.46.04:322][ 60]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2017.05.18-00.46.04:364][ 60]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_0
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.04:436][ 60]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.46.04:437][ 60]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_19.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.46.04:449][ 60]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.46.04:450][ 60]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.46.04:460][ 60]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_38
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.04:484][ 60]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2017.05.18-00.46.04:485][ 60]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:46:04 pm)
+[2017.05.18-00.46.04:485][ 60]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.46.04:505][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020742s)
+[2017.05.18-00.46.04:506][ 60]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.46.04:506][ 60]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2017.05.18-00.46.04:506][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021747s)
+[2017.05.18-00.46.04:556][ 60]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.46.04:559][ 60]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.46.04
+[2017.05.18-00.46.04:560][ 60]LogWorld: Bringing up level for play took: 0.002082
+[2017.05.18-00.46.04:561][ 60]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.385
+[2017.05.18-00.46.04:561][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.46.06:582][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.46.06:632][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.46.39:006][608]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_41
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.46:516][314]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_44
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.47:398][385]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_47
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.49:566][546]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_48
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.49:578][547]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_49
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.49:603][549]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_50
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.49:653][553]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_51
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.49:713][558]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_52
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.49:787][564]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_53
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.50:773][642]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-00.46.53:150][819]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.53:151][819]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_56
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.53:151][819]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.53:151][819]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.53:155][819]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_57
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.53:155][819]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.53:171][819]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_60
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.53:172][819]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.55:284][993]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_61
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.55:285][993]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.55:294][993]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.55:297][993]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.56:320][ 78]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_62
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.46.56:321][ 78]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.56:332][ 78]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.46.56:334][ 78]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.05:938][849]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.05:938][849]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.05:940][849]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.06:269][876]LogScript:Warning: Accessed None trying to read property Weapon_pickup
+	weapon_pickup_C /Engine/Transient.World_3:PersistentLevel.Weapon_pickup_GEN_VARIABLE_weapon_pickup_C_CAT_66
+	Function /Game/inventory/weapon_pickup.weapon_pickup_C:ExecuteUbergraph_weapon_pickup:00B7
+[2017.05.18-00.47.06:270][876]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.06:270][876]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.06:271][876]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_3:PersistentLevel.ThirdPersonCharacter_C_0.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.08:301][ 40]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.47.08:654][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_27.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:655][ 40]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:657][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_29.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:662][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:664][ 40]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:665][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:675][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:677][ 40]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:678][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:683][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_64.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:685][ 40]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.08:686][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_66.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.09:142][ 63]LogSavePackage: Save=37.27ms
+[2017.05.18-00.47.09:142][ 63]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter66F6C5174E99693CE1EAA2B931603FA8.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.47.09:145][ 63]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.47.21:867][125]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.47.21:986][125]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.21:987][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.21:988][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.21:994][125]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.21:995][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.21:996][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:005][125]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:007][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:008][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:013][125]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:014][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:016][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.22:465][153]LogSavePackage: Save=36.61ms
+[2017.05.18-00.47.22:465][153]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter7076F55F48A11A66E0570AB285C8BC4A.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.47.22:467][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.47.35:755][328]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.47.35:875][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:877][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:878][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:884][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:885][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:886][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:896][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:898][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:899][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:904][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:905][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.35:907][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.47.36:278][354]LogSavePackage: Save=36.92ms
+[2017.05.18-00.47.36:278][354]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter6A0B907C40A3FE2D4A5211AC3E79FDC0.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.47.36:280][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.47.37:983][548]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.47.37:992][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.47.37:992][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.47.37:992][548]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:47:37 pm)
+[2017.05.18-00.47.37:992][548]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.47.38:014][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021619s)
+[2017.05.18-00.47.38:015][548]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.47.38:015][548]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2017.05.18-00.47.38:015][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022947s)
+[2017.05.18-00.47.38:061][548]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.47.38:064][548]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.47.38
+[2017.05.18-00.47.38:064][548]LogWorld: Bringing up level for play took: 0.002091
+[2017.05.18-00.47.38:066][548]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.11
+[2017.05.18-00.47.38:066][548]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.47.39:396][701]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.47.40:838][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.47.40:889][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.04:298][111]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.48.04:425][111]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:426][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:428][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:432][111]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:434][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:435][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:445][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:446][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:448][111]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:453][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:454][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.04:456][111]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.06:409][297]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.48.06:421][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.06:421][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.48.06:421][297]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:48:06 pm)
+[2017.05.18-00.48.06:421][297]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.48.06:442][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021150s)
+[2017.05.18-00.48.06:443][297]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.48.06:443][297]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2017.05.18-00.48.06:443][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022222s)
+[2017.05.18-00.48.06:491][297]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.48.06:494][297]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.48.06
+[2017.05.18-00.48.06:494][297]LogWorld: Bringing up level for play took: 0.001958
+[2017.05.18-00.48.06:495][297]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.319
+[2017.05.18-00.48.06:495][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.07:845][455]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.48.11:813][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.11:865][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.21:147][737]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.48.21:272][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:273][737]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:275][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_78.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:280][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:281][737]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:283][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:292][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_94.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:293][737]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:295][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_96.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:300][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:301][737]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:303][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.48.21:532][743]LogSavePackage: Save=35.49ms
+[2017.05.18-00.48.21:532][743]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacterDEB865DC4A1ED92C1E544488AEE1CBED.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.48.21:534][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.48.23:110][896]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.48.23:122][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.23:122][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.48.23:122][896]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:48:23 pm)
+[2017.05.18-00.48.23:122][896]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.48.23:142][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020218s)
+[2017.05.18-00.48.23:143][896]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.48.23:143][896]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2017.05.18-00.48.23:144][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021555s)
+[2017.05.18-00.48.23:192][896]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.48.23:195][896]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.48.23
+[2017.05.18-00.48.23:196][896]LogWorld: Bringing up level for play took: 0.002430
+[2017.05.18-00.48.23:197][896]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.021
+[2017.05.18-00.48.23:197][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.24:472][ 45]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.48.25:848][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.48.25:892][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.49.10:614][988]LogEditorViewport: Clicking on Actor (context menu): weapon_pickup_C (weapon_pickup)
+[2017.05.18-00.49.41:988][173]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.49.42:115][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:118][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:119][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:124][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:125][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:127][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:138][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:140][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:141][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:146][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:148][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:150][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.49.42:583][207]LogSavePackage: Save=35.51ms
+[2017.05.18-00.49.42:583][207]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter09A1CC2749F3B2F991D10698B6EEB9D4.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.49.42:586][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.50.08:523][160]LogSavePackage: Save=122.88ms
+[2017.05.18-00.50.08:523][160]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonExampleMap_Auto1298EE5B445E59A485313B7BB02DC17BC.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.05.18-00.50.08:525][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.05.18-00.50.08:526][160]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.158
+[2017.05.18-00.50.08:526][160]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2017.05.18-00.51.22:172][155]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.51.22:295][155]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:297][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:298][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:303][155]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:305][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:306][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:315][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:317][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:319][155]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:323][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:325][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.22:326][155]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:664][413]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.51.24:782][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:784][413]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:785][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:790][413]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:792][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:794][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:803][413]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:804][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:806][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:811][413]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:812][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.24:814][413]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Weapon_Pickup_2_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.51.25:045][423]LogSavePackage: Save=38.11ms
+[2017.05.18-00.51.25:045][423]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacterB028ECDF405288BC23167EB029ECB272.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.51.25:048][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.51.27:483][696]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.51.27:496][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.51.27:496][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.51.27:496][696]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:51:27 pm)
+[2017.05.18-00.51.27:496][696]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.51.27:515][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018558s)
+[2017.05.18-00.51.27:516][696]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.51.27:516][696]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2017.05.18-00.51.27:516][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020254s)
+[2017.05.18-00.51.27:565][696]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.51.27:568][696]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.51.27
+[2017.05.18-00.51.27:569][696]LogWorld: Bringing up level for play took: 0.002183
+[2017.05.18-00.51.27:570][696]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.605
+[2017.05.18-00.51.27:570][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.51.29:322][900]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.51.34:872][566]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.51.34:925][566]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.13:713][531]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-00.53.13:726][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.13:726][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.53.13:726][531]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:53:13 pm)
+[2017.05.18-00.53.13:726][531]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.53.13:745][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019334s)
+[2017.05.18-00.53.13:747][531]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.53.13:747][531]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2017.05.18-00.53.13:747][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021084s)
+[2017.05.18-00.53.13:799][531]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.53.13:802][531]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.53.13
+[2017.05.18-00.53.13:803][531]LogWorld: Bringing up level for play took: 0.002243
+[2017.05.18-00.53.13:804][531]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.37
+[2017.05.18-00.53.13:804][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.15:215][696]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.53.16:565][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.16:634][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.30:664][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.30:664][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.53.30:664][ 77]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:53:30 pm)
+[2017.05.18-00.53.30:664][ 77]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.53.30:683][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019162s)
+[2017.05.18-00.53.30:684][ 77]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.53.30:684][ 77]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2017.05.18-00.53.30:684][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020371s)
+[2017.05.18-00.53.30:739][ 77]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.53.30:742][ 77]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.53.30
+[2017.05.18-00.53.30:742][ 77]LogWorld: Bringing up level for play took: 0.002191
+[2017.05.18-00.53.30:747][ 77]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.574
+[2017.05.18-00.53.30:748][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.30:815][ 77]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:142060).
+[2017.05.18-00.53.37:391][680]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.53.40:611][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.40:681][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.47:797][753]LogEditorViewport: Clicking on Actor (LMB): Weapon_Pickup_2_C (Weapon_Pickup_2)
+[2017.05.18-00.53.53:207][400]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-00.53.53:215][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.53:215][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.53.53:215][400]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:53:53 pm)
+[2017.05.18-00.53.53:215][400]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.53.53:238][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023316s)
+[2017.05.18-00.53.53:239][400]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.53.53:239][400]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2017.05.18-00.53.53:239][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024400s)
+[2017.05.18-00.53.53:296][400]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.53.53:299][400]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.53.53
+[2017.05.18-00.53.53:299][400]LogWorld: Bringing up level for play took: 0.002592
+[2017.05.18-00.53.53:305][400]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.868
+[2017.05.18-00.53.53:305][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.53.59:542][983]LogChildActorComponent:Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Weapon_pickup'.  Not spawning Actor of class 'ThirdPersonCharacter_C' to break.
+[2017.05.18-00.54.01:668][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.54.01:719][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.55.34:340][224]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-00.55.55:789][199]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.55.56:153][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.55.56:154][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_81.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.55.56:156][199]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.55.56:168][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.55.56:169][199]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_50.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.55.56:170][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_weapon_pickup_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-00.55.56:676][230]LogSavePackage: Save=36.19ms
+[2017.05.18-00.55.56:677][230]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacterDC6CF4DA4D62D6DB9EA01F8D8F13C58D.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.55.56:679][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.55.57:919][326]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-00.56.00:536][569]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.18-00.56.01:218][605]LogSavePackage: Save=35.03ms
+[2017.05.18-00.56.01:218][605]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonCharacter66DCDC3C473B836F08B3B9A2D169BD43.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.18-00.56.01:220][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.18-00.56.34:143][185]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-00.56.45:804][509]BlueprintLog: New page: Compile Weapon_Pickup_2
+[2017.05.18-00.56.46:394][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/Weapon_Pickup_2" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/Weapon_Pickup_2.uasset" SILENT=true
+[2017.05.18-00.56.46:419][557]LogSavePackage: Save=20.04ms
+[2017.05.18-00.56.46:419][557]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/Weapon_Pickup_20981A2FC4388DCFE720150A1240399E0.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/Weapon_Pickup_2.uasset'
+[2017.05.18-00.56.46:422][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/Weapon_Pickup_2.uasset
+[2017.05.18-00.57.21:633][439]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-00.57.28:265][210]BlueprintLog: New page: Compile Weapon_Pickup_2
+[2017.05.18-00.57.28:971][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/Weapon_Pickup_2" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/Weapon_Pickup_2.uasset" SILENT=true
+[2017.05.18-00.57.28:994][272]LogSavePackage: Save=18.55ms
+[2017.05.18-00.57.28:994][272]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/Weapon_Pickup_2CA5D6848448097E97171D48D81FD0689.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/Weapon_Pickup_2.uasset'
+[2017.05.18-00.57.28:996][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/Weapon_Pickup_2.uasset
+[2017.05.18-00.57.34:587][923]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-00.57.34:599][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.57.34:599][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-00.57.34:599][923]PIE: New page: PIE session: ThirdPersonExampleMap (18 May 2017 8:57:34 pm)
+[2017.05.18-00.57.34:599][923]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.18-00.57.34:618][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019136s)
+[2017.05.18-00.57.34:619][923]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.18-00.57.34:619][923]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2017.05.18-00.57.34:620][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020511s)
+[2017.05.18-00.57.34:679][923]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.18-00.57.34:682][923]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.18-10.57.34
+[2017.05.18-00.57.34:682][923]LogWorld: Bringing up level for play took: 0.002037
+[2017.05.18-00.57.34:687][923]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.515
+[2017.05.18-00.57.34:688][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.58.10:132][185]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.58.10:194][185]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.18-00.58.25:618][857]LogSavePackage: Save=119.82ms
+[2017.05.18-00.58.25:618][857]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/ThirdPersonExampleMapDDA54B7B4CFCDFF0A96F90A637D0DAF1.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.18-00.58.25:622][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.18-00.58.25:642][857]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.221
+[2017.05.18-00.58.25:644][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/inventory/HUD" FILE="../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/HUD.uasset" SILENT=true
+[2017.05.18-00.58.25:671][857]LogSavePackage: Save=22.62ms
+[2017.05.18-00.58.25:671][857]LogSavePackage: Moving '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/HUD5039CC8D47781B33A9F3DCBA3E8FD069.tmp' to '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/HUD.uasset'
+[2017.05.18-00.58.25:673][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/inventory/HUD.uasset
+[2017.05.18-01.02.14:908][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-01.02.14:959][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-01.02.15:361][554]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.18-01.02.15:531][555]Cmd: QUIT_EDITOR
+[2017.05.18-01.02.16:564][555]LogExit: Preparing to exit.
+[2017.05.18-01.02.17:414][555]LogDirectoryWatcher: A directory notification for 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/' was aborted.
+[2017.05.18-01.02.17:443][555]LogExit: Editor shut down
+[2017.05.18-01.02.17:443][555]LogExit: Transaction tracking system shut down
+[2017.05.18-01.02.17:521][555]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.18-01.02.17:521][555]LogExit: Object subsystem successfully closed.
+[2017.05.18-01.02.17:537][555]LogD3D11RHI: Shutdown
+[2017.05.18-01.02.17:537][555]LogD3D11RHI: CleanupD3DDevice
+[2017.05.18-01.02.17:662][555]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.18-01.02.17:680][555]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.18-01.02.17:680][555]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.18-01.02.17:681][555]LogDirectoryWatcher: A directory notification for 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/Collections/' was aborted.
+[2017.05.18-01.02.17:681][555]LogDirectoryWatcher: A directory notification for 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/Developers/R201631433/Collections/' was aborted.
+[2017.05.18-01.02.17:681][555]LogDirectoryWatcher: A directory notification for 'C:/Users/R201631433/Documents/Unreal Projects/doesnt_matter/Saved/Collections/' was aborted.
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.18-01.02.17:681][555]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.18-01.02.17:682][555]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.18-01.02.18:567][555]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.18-01.02.18:568][555]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.18-01.02.18:624][555]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.18-01.02.18:624][555]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.18-01.02.18:624][555]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.18-01.02.18:624][555]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.18-01.02.18:624][555]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.18-01.02.18:624][555]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.18-01.02.18:625][555]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.18-01.02.18:625][555]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.18-01.02.18:625][555]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.18-01.02.18:647][555]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.18-01.02.18:647][555]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.18-01.02.18:651][555]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.18-01.02.18:651][555]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.18-01.02.18:651][555]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.18-01.02.18:652][555]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.18-01.02.18:683][555]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.18-01.02.18:684][555]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.18-01.02.18:685][555]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.18-01.02.18:687][555]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.18-01.02.18:687][555]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.18-01.02.18:687][555]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.18-01.02.18:688][555]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.18-01.02.18:691][555]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.18-01.02.18:691][555]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.18-01.02.18:691][555]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.18-01.02.18:691][555]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.18-01.02.18:792][555]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.18-01.02.18:893][555]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.18-01.02.18:895][555]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.18-01.02.18:895][555]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.18-01.02.18:895][555]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.18-01.02.18:896][555]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.18-01.02.18:907][555]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.18-01.02.18:907][555]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.18-01.02.18:907][555]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.18-01.02.18:907][555]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.18-01.02.18:907][555]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.18-01.02.18:907][555]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.18-01.02.19:058][555]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.18-01.02.19:058][555]LogDirectoryWatcher: A directory notification for '../../../../../../Users/R201631433/Documents/Unreal Projects/doesnt_matter/Content/' was aborted.
+[2017.05.18-01.02.19:058][555]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.18-01.02.19:058][555]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.18-01.02.19:059][555]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.18-01.02.19:069][555]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.18-01.02.19:116][555]LogDerivedDataCache: Shutdown
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.18-01.02.19:116][555]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.18-01.02.19:117][555]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.18-01.02.19:117][555]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.18-01.02.19:117][555]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.18-01.02.19:117][555]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.18-01.02.19:117][555]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.18-01.02.19:117][555]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.18-01.02.19:117][555]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.18-01.02.19:117][555]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.05.18-01.02.19:117][555]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5539D51A-47DF-C14E-20E8-EF933C23B1E9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3650807f4477515cd0e403a6b1265348%7C%7C0fed7054-1aab-46b2-8680-6077a8490a38&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.18-01.02.19:117][555]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5539D51A-47DF-C14E-20E8-EF933C23B1E9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3650807f4477515cd0e403a6b1265348%7C%7C0fed7054-1aab-46b2-8680-6077a8490a38&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.18-01.02.19:124][555]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.18-01.02.19:125][555]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.18-01.02.19:125][555]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.18-01.02.19:125][555]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.18-01.02.19:125][555]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.18-01.02.19:125][555]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.18-01.02.19:128][555]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.18-01.02.19:129][555]LogExit: Exiting.
+[2017.05.18-01.02.19:137][555]Log file closed, 05/18/17 11:02:19
