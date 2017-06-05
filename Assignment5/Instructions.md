@@ -1,7 +1,8 @@
 
-Assignment 5: Build a HUD
+Assignment 4: Inventory Systems
 
-1.  Complete the tutorial on UMG
+1.  Observe the class demonstation of using datatables
 
-https://docs.unrealengine.com/latest/INT/Engine/UMG/QuickStart/1/index.html
+2.  Use the project template provided that includes a player character equipping weapons.
 
+4.   Show stats from the datatable on a HUD for each weapon equipped.

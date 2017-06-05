@@ -1,6 +1,8 @@
 
-Assignment 6: Saving and Loading
+Assignment 4: Inventory Systems
 
-1. Observe the class demonstration on saving a player's score and inputting text using UMG. 
+1.  Observe the class demonstation of using datatables
 
-2. Create an interface that records the player score and displays the best score.
+2.  Use the project template provided that includes a player character equipping weapons.
+
+4.   Show stats from the datatable on a HUD for each weapon equipped.
